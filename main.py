@@ -18,10 +18,10 @@ def main():
             event = {
                 'summary': item['properties']['名前']['title'][0]['plain_text'],
                 'start': {
-                    'dateTime': f"{item['properties']['実施予定日']['date']['start']}T00:00:00+09:00",
+                    'dateTime': f"{item['properties']['実施予定日']['date']['start']}",
                 },
                 'end': {
-                    'dateTime': f"{item['properties']['実施予定日']['date']['start']}T23:59:59+09:00",
+                    'dateTime': f"{item['properties']['実施予定日']['date']['start']}",
                 },
             }
         except:
