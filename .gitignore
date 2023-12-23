@@ -1,1 +1,10 @@
+# google_calender
+google_calender/credential.json
+google_calender/token.json
+
+
+# Notion
 Notion/.env
+
+# general
+venv
